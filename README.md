@@ -27,7 +27,7 @@ $ conda install cookiecutter
 ### To start a new project, run:
 ------------
 
-    cookiecutter -c v1 https://github.com/bocdaz/template-data-scientist
+    cookiecutter https://github.com/bocdaz/template-data-scientist
 
 
 [![asciicast](https://asciinema.org/a/244658.svg)](https://asciinema.org/a/244658)
