@@ -1,5 +1,6 @@
 {
     "project_name": "project_name",
+    "hyphenated": "{{ '-'.join(cookiecutter['project_name'].lower().split()).replace('_', '-') }}",
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "author_name": "Your name (or your organization/company/team)",
     "description": "A short description of the project.",
